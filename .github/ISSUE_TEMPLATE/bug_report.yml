@@ -1,0 +1,19 @@
+name: Bug report
+description: Report an application issue. Use SECURITY.md for vulnerabilities.
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include expected behavior and steps to reproduce. Do not include secrets or personal data.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Commit or version
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, device, Node version and network.
